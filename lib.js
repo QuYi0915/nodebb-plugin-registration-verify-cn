@@ -204,7 +204,7 @@ plugin.addCaptcha = function (params, callback) {
 plugin.checkRegister = function (params, callback) {
   var v_code = params.req.session.vcode;
   if (v_code.toLowerCase() !== params.req.body['verify-code'].toLowerCase()) {
-    callback({ source: 'verify-code', message: 'wrong-code' }, params);
+    callback({ source: 'verify-code', message: '[[verify-code:client-wrong-code]]' }, params);
   } else {
     callback(null, params);
   }
