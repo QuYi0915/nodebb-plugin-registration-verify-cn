@@ -1,6 +1,11 @@
 # nodebb-plugin-registration-verify-cn
+```
 **基于nodebb-plugin-registration-verify修改**
+```
 **建议node版本 v10**
+```
+**修改验证码发生错误时的提示***
+```
 **This is a test plugin, the function is not yet complete (no ajax check, no click-to-reload).**
 ## How to install?
 ```shell
