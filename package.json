@@ -1,0 +1,35 @@
+{
+  "name": "nodebb-plugin-registration-verify-cn",
+  "version": "0.0.1",
+  "description": "change nodebb-plugin-registration-verify",
+  "main": "lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "registration",
+    "spam"
+  ],
+  "author": {
+    "name": "quyi",
+    "email": "1096496326@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/QuYi0915/nodebb-plugin-registration-verify-cn/issues"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuYi0915/nodebb-plugin-registration-verify-cn"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.6.5",
+    "mobile-detect":"1.3.6"
+  },
+  "nbbpm": {
+    "compatibility": "^1.5.0"
+  }
+}
