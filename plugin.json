@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-registration-verify",
-	"name": "Registration Verify Code",
+	"id": "nodebb-plugin-registration-verify-cn",
+	"name": "Registration Verify Code CN",
 	"description": "A plugin that requires visitors to fill in the verification code when registering.",
 	"url": "https://github.com/a632079/nodebb-plugin-registration-verify.git",
 	"library": "./lib.js",
@@ -21,6 +21,9 @@
 	"staticDirs": {
 		"static": "./static"
 	},
+	"scripts": [
+		"static/lib/main.js"
+	],
     "languages": "languages",
     "defaultLang": "en-GB",
 	"templates": "static/templates"

@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-registration-verify-cn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "change nodebb-plugin-registration-verify",
   "main": "lib.js",
   "scripts": {
