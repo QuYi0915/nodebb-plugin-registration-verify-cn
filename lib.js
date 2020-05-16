@@ -161,7 +161,7 @@ plugin.init = function (params, callback) {
         };
         var v_code = Generate(settings);
         req.session.vcode = v_code.code;
-        res.render(v_code);
+        res.send({dataURL: v_code.dataURL});
     });
     callback();
 };
