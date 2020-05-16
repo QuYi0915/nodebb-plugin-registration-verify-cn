@@ -6,6 +6,9 @@
 ```
 修改验证码发生错误时的提示
 ```
+```
+添加点击验证码更换
+```
 **This is a test plugin, the function is not yet complete (no ajax check, no click-to-reload).**
 ## How to install?
 ```shell
