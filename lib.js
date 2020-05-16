@@ -196,13 +196,13 @@ plugin.addCaptcha = function (params, callback) {
     if (!md.mobile) {
         ret = {
             label: '[[verify-code:register-label]]',
-            html: '<div class="well"><input class="form-control" name="verify-code" id="verify-code" placeholder="[[verify-code:register-placeholder]]" style="width:auto;display:inline-block" /><img style="float:right;display:inline-block;" src="' + v_code.dataURL + '"/></div>'
+            html: '<div class="well"><input class="form-control" name="verify-code" id="verify-code" placeholder="[[verify-code:register-placeholder]]" style="width:auto;display:inline-block" /><img id="verifcCode" style="float:right;display:inline-block;" src="' + v_code.dataURL + '"/></div>'
         };
     } else {
         //mobile friendly
         ret = {
             label: '[[verify-code:register-label]]',
-            html: '<div class="well"><input class="form-control" name="verify-code" id="verify-code" placeholder="[[verify-code:register-placeholder]]" style="width:auto;display:inline-block;padding:5px;" /><img style="float:right;display:inline-block;" src="' + v_code.dataURL + '"/></div>'
+            html: '<div class="well"><input class="form-control" name="verify-code" id="verify-code" placeholder="[[verify-code:register-placeholder]]" style="width:auto;display:inline-block;padding:5px;" /><img id="verifcCode" style="float:right;display:inline-block;" src="' + v_code.dataURL + '"/></div>'
         };
     }
 
